@@ -26,7 +26,7 @@ export GOPATH=$HOME/go
 
 export PATH=$GOPATH/bin:$GOROOT/bin:$PATH" >> ~/.bashrc
 
-echo "===========Install smnp_exporter==========="
+echo "===========Install snmp_exporter==========="
 echo "Open port 9116"
 iptables -A INPUT -p tcp -m tcp --dport 9116 -j ACCEPT
 service iptables save
