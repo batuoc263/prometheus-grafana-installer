@@ -26,7 +26,7 @@ wget https://github.com/prometheus/prometheus/releases/download/v2.19.0/promethe
 
 tar -xvzf prometheus-2.19.0.linux-amd64.tar.gz
 
-mv prometheus-2.19.0.linux-amd64.tar.gz /usr/local/prometheus/
+mv prometheus-2.19.0.linux-amd64 /usr/local/prometheus/
 
 touch /etc/systemd/system/prometheus.service
 
