@@ -15,3 +15,7 @@ Cài đặt prometheus và grafana lên server bằng file `prometheus-grafana-i
 Để lấy được các metrics của các host Linux, cài đặt node_exporter_agent lên host linux bằng file `node_exporter_agent.sh`
 
 Để bắn thông báo về telegram, chuẩn bị trước token và group chat id của telegram, sau đó cài đặt bằng file `alert_manager.sh`
+
+# Dashboard ví dụ
+
+Trong thư mục dashboard example chứa các dashboard mẫu. Các bạn có thể fork project về và pull lên đóng góp thêm những dashboard khác mà các bạn đang xài.
